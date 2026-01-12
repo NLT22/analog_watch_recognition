@@ -1,0 +1,8 @@
+path: D:/2025.1/AI/datasets/watch_seg
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: hour_hand
+  1: minute_hand
