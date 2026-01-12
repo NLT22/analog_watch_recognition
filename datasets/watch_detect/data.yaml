@@ -1,0 +1,8 @@
+path: D:/2025.1/AI/datasets/watch_detect
+train: images/train
+val: images/val
+test: images/test
+
+names:
+  0: face
+  1: knob

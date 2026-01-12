@@ -1,0 +1,11 @@
+path: D:/2025.1/AI/datasets/watch_pose
+train: images/train
+val: images/val
+test: images/test
+
+# 1 class for pose
+names:
+  0: clock
+
+# keypoints: minute_tip, hour_tip
+kpt_shape: [2, 3]
