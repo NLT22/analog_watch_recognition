@@ -1,7 +1,6 @@
 path: datasets/watch_seg
 train: images/train
 val: images/val
-test: images/test
 
 names:
   0: hour_hand
