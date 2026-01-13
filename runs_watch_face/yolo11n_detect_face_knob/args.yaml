@@ -11,7 +11,7 @@ save: true
 save_period: -1
 cache: true
 device: '0'
-workers: 8
+workers: 0
 project: runs_watch_face
 name: yolo11n_detect_face_knob
 exist_ok: true
@@ -86,7 +86,7 @@ nbs: 64
 hsv_h: 0.015
 hsv_s: 0.7
 hsv_v: 0.4
-degrees: 180
+degrees: 0.0
 translate: 0.1
 scale: 0.5
 shear: 0.0
