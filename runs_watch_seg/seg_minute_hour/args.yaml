@@ -2,7 +2,7 @@ task: segment
 mode: train
 model: yolo11n-seg.pt
 data: ./datasets/watch_seg/data.yaml
-epochs: 50
+epochs: 30
 time: null
 patience: 100
 batch: 16
@@ -83,9 +83,9 @@ dfl: 1.5
 pose: 12.0
 kobj: 1.0
 nbs: 64
-hsv_h: 0.015
-hsv_s: 0.7
-hsv_v: 0.4
+hsv_h: 0.02
+hsv_s: 0.8
+hsv_v: 0.6
 degrees: 0.0
 translate: 0.1
 scale: 0.5

@@ -2,7 +2,7 @@ task: detect
 mode: train
 model: yolo11n.pt
 data: ./datasets/watch_detect/data.yaml
-epochs: 50
+epochs: 30
 time: null
 patience: 100
 batch: 16
@@ -11,7 +11,7 @@ save: true
 save_period: -1
 cache: true
 device: '0'
-workers: 0
+workers: 8
 project: runs_watch_face
 name: yolo11n_detect_face_knob
 exist_ok: true
@@ -83,10 +83,10 @@ dfl: 1.5
 pose: 12.0
 kobj: 1.0
 nbs: 64
-hsv_h: 0.015
-hsv_s: 0.7
-hsv_v: 0.4
-degrees: 0.0
+hsv_h: 0.02
+hsv_s: 0.8
+hsv_v: 0.6
+degrees: 30
 translate: 0.1
 scale: 0.5
 shear: 0.0
